@@ -1,0 +1,6 @@
+main
+*.mod
+*.o
+*~
+__pycache__
+
