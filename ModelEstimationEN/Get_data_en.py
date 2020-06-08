@@ -13,7 +13,7 @@ import plotly.io as pio
 #Data from:: https://www.england.nhs.uk/statistics/statistical-work-areas/covid-19-daily-deaths/
 
 ## File for total at last
-directory = '/Users/tgst/Desktop/Covid-19-Mx/Data_en/'
+directory = '../Data_en/'
 
 x = pd.read_excel(directory+'/'+'COVID-19-total-announced-deaths-8-June-2020.xlsx', sheet_name='Tab1 Deaths by region', index_col=None, header=None)
 x = x.fillna(-100000)

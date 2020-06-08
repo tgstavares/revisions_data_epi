@@ -33,7 +33,7 @@ idates = ['2020-06-07',
 
 j = 0
 i = isel[0]
-directory = '/Users/tgst/Desktop/Covid-19-Mx/Data_mx/'
+directory = '../Data_mx/'
 filename = directory+'/'+'200'+str(i)+'COVID19MEXICO.csv'
 mx = pd.read_csv(filename,encoding='latin1',dtype={'PAIS_NACIONALIDAD': 'str','PAIS_ORIGEN': 'str',})
 mxall= mx
