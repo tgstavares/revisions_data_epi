@@ -6,7 +6,7 @@ Before replicating the results in these codes, make sure you download the entire
 
 ### Replication of sections "Descriptive Evidence for England and Mexico" and "Determinants of Reporting Delays"
 
-The results of these sections can be were tested using Stata 14.1. In the folder `Estimation_delay` you can find the related Stata do-files to generate the results. Here, we have a description of each do-files. These generate Figs. 1-5 in the paper. Each do-file contains more info on what is being done.
+The results of these sections can be were tested using Stata 14.1. In the folder `Estimation_delay/` you can find the related Stata do-files to generate the results. Here, we have a description of each do-files. These generate Figs. 1-5 in the paper. Each do-file contains more info on what is being done.
 - SETTING UP DATA FOR MEXICO 
     - `gen_mex_data.do`: takes the raw data for Mexico and generates a cleaned up file with individual records (each observation is a person)
     - `gen_mex_covid_deaths.do`: takes the cleaned up file from the Mexico data and generates a dataset with observations at the municipality-date of death level detailing deaths reported at different dates
