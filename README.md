@@ -14,10 +14,7 @@ The results of this section were tested using `Python 3.7.4`, `GNU Fortran 9.3.0
     1. (similarly you may need to comment/uncomment the source file as indicicated whether you're generating results using deaths as reported or deaths as occurred)
     1. Parameter results are summarized in the file `data/Res_00.txt` when using deaths as reported or `data/Res_13.txt` when using deaths as occurred
     1. Output files with simulations are in `data\exportfinal_002.csv` when using deaths as reported or `data\exportfinal_132.csv` when using deaths as occurred
-1. To get results for England move to the appropriate folder running `cd ModelEstimationEN/` and repead the analougous instrutions of Mexico
+1. To get results for England move to the appropriate folder running `cd ModelEstimationEN/` and repeat the analogous instructions of Mexico
 1. At this stage one should have parameter estimates for both Mexico and England in `ModelEstimationMX/data/Res_00.txt`, `ModelEstimationMX/data/Res_13.txt`, `ModelEstimationEN/data/Res_00.txt`, and `ModelEstimationEN/data/Res_13.txt`; and simulation results in `ModelEstimationMX/data/exportfinal_002`, `ModelEstimationMX/data/exportfinal_132`, `ModelEstimationEN/data/exportfinal_002`, and `ModelEstimationEN/data/exportfinal_132`
 1. Generate the paper figure moving to the appropriate folder with `cd Fig1/` and running `gnuplot fig1.gp` where the output is stored in the same folder under `fig_mx_en.eps`
-1. Finally the simulation results can be analysed using the jupyter notebook `Visualize_results_estimations.ipynb` in the root folder.
-
-
-    
+1. Finally the simulation results can be analised using the jupyter notebook `Visualize_results_estimations.ipynb` in the root folder.
