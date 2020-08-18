@@ -6,7 +6,7 @@ Before replicating the results in these codes, make sure you download the entire
 
 ### Replication epirical section on the survey
 
-The results of these sections can be were tested using Stata 14.1. In the folder `Replication_covid_behavior/do/` you can find the related Stata do-file to generate the all the regression results and figures as shown in the paper. This file is self-explanatory in the sense that it is commented. The data used in this results can be find within the folder `analysis_treatments\raw\`.
+The results of these sections were tested using Stata 14.1. In `Replication_covid_behavior/do/analysis_treatments.do` you can find the related Stata do-file to generate the all the regression results and figures as shown in the paper. This file is self-explanatory in the sense that it is commented. The data used in this results can be find in `analysis_treatments\raw\surveydata.dta`.
 
 ### Replication of equilibrium model of infection
 
