@@ -1,7 +1,0 @@
-main
-*.mod
-*.o
-*.eps
-*~
-__pycache__
-

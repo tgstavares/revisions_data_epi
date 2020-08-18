@@ -1,2 +1,0 @@
-           I0        Rinit       Rfinit       Lambda   ::       distance
-     194.2857       6.2500       0.4667       0.0820   ::        0.00023        0.00023
