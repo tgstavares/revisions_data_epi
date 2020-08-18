@@ -13,4 +13,4 @@ The results of these sections can be were tested using Stata 14.1. In the folder
 The results of this section were tested using `GNU Fortran 9.3.0`, and `gnuplot 5.2 patchlevel 8`. The main source file to compute the equilibrium can be find in `EqModel/main.f90` (you can use the makefile to compile it). Once this code is run, one can generate the paper figure using the gnuplot file `EqModel/figure_scripts/fig2.gp`.
 
 ### Contact
-For more information, please contact [Tiago Tavares](mailto:tgstavares@gmail.com)
+For more information, please contact [tgstavares@gmail.com](mailto:tgstavares@gmail.com)
